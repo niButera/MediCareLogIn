@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to bottom, rgba(10, 29, 62, 1) 30%, rgba(80, 206, 255, 1));
+    background-size: cover; 
+}
+
+
+.meuBotao:hover {
+    background: linear-gradient(to bottom, rgba(10, 29, 62, 1), rgba(80, 206, 255, 1));
+    box-shadow: 0px 0px 10px 0px #0505058a;
+    color: #ffffff;
+}
+
+.meuBotao {
+    background: rgba(224, 224, 224, 0.267);
+    color: rgb(255, 255, 255);
+    border-radius: 13px;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 15px;
+    border: none;
+    justify-content: center;
+    margin: 15px auto;
+    display: block;
+}
+
+#form:hover {
+    box-shadow: 0px 0px 10px 0px  rgba(80, 206, 255, 1);
+}
+
+#form {
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.150);
+    margin: 0px 10px 10px 10px;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 13px;
+    color: #000;
+    border: 2px;
+}
+
+.form {
+    flex-flow: column;
+    display: flex;
+}
+
+span {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Khula", sans-serif;
+}
+
+h1 {
+    font-family: "Khula", sans-serif;
+    color: white;
+    text-align: center;
+    font-style: normal;
+    font-weight: 530;
+    font-size: 30px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: "Khula", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: rgba(10, 29, 62, 1);
+}
+
