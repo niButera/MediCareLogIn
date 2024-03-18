@@ -1,7 +1,7 @@
 const video = document.getElementById('qr-video');
 const canvas = document.getElementById('qr-canvas');
 const ctx = canvas.getContext('2d');
-let qrFound = false; // Variável para controlar se o QR foi encontrado
+let qrFound = false; 
 
 const constraints = {
   video: {
@@ -28,13 +28,19 @@ function tick() {
     });
     if (code) {
       console.log('Código QR encontrado:', code.data);
-      qrFound = true; // Define para verdadeiro para evitar redirecionamento repetido
-      // Redireciona para o link fornecido pelo código QR
-      window.location.href = code.data;
+      if (code.data === 'https://nibutera.github.io/FrontMediCare/') {
+        qrFound = true; 
+
+        window.location.href = code.data;
+      } else {
+        console.log('O código QR encontrado não leva para o link especificado.');
+        requestAnimationFrame(tick);
+      }
     }
   }
   requestAnimationFrame(tick);
 }
+
 
 
 
