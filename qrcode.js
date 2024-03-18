@@ -27,10 +27,11 @@ function tick() {
     });
     if (code) {
       console.log('Código QR encontrado:', code.data);
-      
-      window.location.href = "https://nibutera.github.io/FrontMediCare/";
+      // Redireciona para o link fornecido pelo código QR
+      window.location.href = code.data;
     }
   }
   requestAnimationFrame(tick);
 }
+
 
