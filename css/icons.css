@@ -61,7 +61,7 @@
     background-image: url('media/phone.png');
     background-position: 20px center;
     background-repeat: no-repeat; 
-    background-size: 20px; 
+    background-size: 25px; 
 }
 
 #corem {
@@ -128,4 +128,14 @@
     background-position: 20px center;
     background-repeat: no-repeat; 
     background-size: 20px; 
+}
+
+#camera {
+    width: 40px;
+}
+
+.seta {
+    position: fixed;
+    width: 15%;
+    bottom: 3%
 }

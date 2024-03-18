@@ -1,9 +1,9 @@
 /* CORPO */
 body {
-    background-color: rgba(240, 240, 240, 1);
+    background-color:rgba(240, 240, 240, 1);
+    text-align: center;
     margin-right: 6%;
     margin-left: 6%;
-    text-align: center;
 }
 
 .center {
@@ -20,20 +20,23 @@ body {
 }
 
 .meuBotao {
-    background: rgb(224, 224, 224);
-    color: rgb(58, 58, 58);
+    /* CAIXA */
+    box-shadow: 0px 0px 10px 0px #05050536;
+    background: rgb(233, 233, 233);
     justify-content: center;
-    border-radius: 13px;
-    padding: 10px 40px;
-    margin: 15px auto;
-    cursor: pointer;
-    font-size: 15px;
+    border-radius: 20px;
+    padding: 15px 20%;
+    margin: 20px auto;
+    /* FONTE */
+    font-family: "Quicksand";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 16px;
     display: block;
     border: none;
 }
 
 /* CAIXAS */
-
 .form-container {
     position: relative;
     width: 200px;
@@ -78,14 +81,14 @@ p {
 }
 
 a {
-    color: rgba(10, 29, 62, 1);
+    color: rgb(13, 44, 97);
     text-decoration: none;
     text-align: center;
+    font-weight: bold;
 }
 
 /* IMAGENS */
-
 img {
     margin-top: 55%;
-    width: 150px;
+    width: 200px;
 }
