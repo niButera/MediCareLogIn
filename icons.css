@@ -6,7 +6,7 @@
     box-sizing: border-box;
     border-radius: 20px;
     padding: 16px;
-    padding-left: 15%;
+    padding-left: 55px;
     border: 2px;
     /* TEXTO */
     font-family: "Quicksand";
@@ -28,7 +28,7 @@
     box-sizing: border-box;
     border-radius: 20px;
     padding: 16px;
-    padding-left: 15%;
+    padding-left: 55px;
     border: 2px;
     /* TEXTO */
     font-family: "Quicksand";
@@ -50,7 +50,7 @@
     box-sizing: border-box;
     border-radius: 20px;
     padding: 16px;
-    padding-left: 15%;
+    padding-left: 55px;
     border: 2px;
     /* TEXTO */
     font-family: "Quicksand";
@@ -72,7 +72,7 @@
     box-sizing: border-box;
     border-radius: 20px;
     padding: 16px;
-    padding-left: 15%;
+    padding-left: 55px;
     border: 2px;
     /* TEXTO */
     font-family: "Quicksand";
@@ -94,7 +94,7 @@
     box-sizing: border-box;
     border-radius: 20px;
     padding: 16px;
-    padding-left: 15%;
+    padding-left: 55px;
     border: 2px;
     /* TEXTO */
     font-family: "Quicksand";
@@ -116,7 +116,7 @@
     box-sizing: border-box;
     border-radius: 20px;
     padding: 16px;
-    padding-left: 15%;
+    padding-left: 55px;
     border: 2px;
     /* TEXTO */
     font-family: "Quicksand";
@@ -131,11 +131,11 @@
 }
 
 #camera {
-    width: 40px;
+    width: 35px;
 }
 
 .seta {
     position: fixed;
-    width: 15%;
+    width: 55px;
     bottom: 3%
 }
