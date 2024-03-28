@@ -5,7 +5,7 @@ let qrFound = false;
 
 const constraints = {
   video: {
-    facingMode: { exact: "environment" }
+    facingMode: "user"
   }
 };
 
